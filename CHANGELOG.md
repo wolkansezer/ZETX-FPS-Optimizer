@@ -1,0 +1,36 @@
+# Sürüm notları
+
+## v1.1.1 — 4 Kasım 2026
+
+### Düzeltildi
+- 32 GB RAM'i olan sistemlerde (Windows 31.9 GB gösterdiği için) yanlışlıkla "32 GB'a yükseltin" önerisi çıkması düzeltildi.
+
+## v1.1.0 — 1 Kasım 2026
+
+### Eklendi
+- **Optimizasyon skoru:** Sistem 100 üzerinden puanlanır, eksik ayarlar işaretlenir. Tarama hiçbir şeyi değiştirmez.
+- **Optimizasyon profilleri:** Dengeli (12 ayar), Rekabetçi (19 ayar) ve Özel.
+- **9 yeni ayar:** PCIe ve USB güç tasarrufu, teslim optimizasyonu, Windows Update yeniden başlatma, yapışkan tuşlar, Windows önerileri ve reklamları, öndeki pencereye işlemci önceliği, telemetri (DiagTrack), pencereli oyun optimizasyonu + VRR, animasyonlar.
+- **Önce / sonra** skor karşılaştırması.
+- **Bellek Bütünlüğü (VBS)** durumu ve aç/kapat.
+- **Başlangıç uygulamaları:** Tek tıkla aç/kapat; anti-cheat ve sürücü öğeleri için uyarı.
+- **Windows onarımı** sayfası: DISM + SFC, ilerleme çubuklarıyla.
+- Temizlik merkezine **WinSxS bileşen deposu (DISM)** temizliği.
+- **İşlem geçmişi** ve tek tuşla **Tümünü geri al** (ayarlar, başlangıç uygulamaları, VBS).
+
+## v1.0.0 — 1 Kasım 2026
+
+İlk sürüm.
+
+- Sistem paneli, canlı sensörler ve sağlık puanı
+- Donanım bilgileri (işlemci, ekran kartı, RAM, disk, anakart, ekran, ağ)
+- Performans testleri: işlemci, ekran kartı (ZETX 3D), RAM, disk
+- Arıza teşhisi: Windows hata kayıtları, SMART, sensörler
+- FPS optimizasyonu (11 ayar), yedekleme ve geri alma
+- 24 oyun için uygunluk ve FPS tahmini
+- Oyun içi izleme (Intel PresentMon ile gerçek FPS, 1% low, sıcaklıklar)
+- İnternet hız ve bufferbloat testi, DNS testi, ağ düzeltmeleri
+- Temizlik ve başlangıç programları
+- HTML rapor
+- Abonelik lisans sistemi (30 gün, 3 ay, 6 ay, 1 yıl) ve 3 gün ücretsiz deneme
+- İletişim sayfası
