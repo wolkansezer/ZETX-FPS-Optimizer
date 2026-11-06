@@ -1,5 +1,11 @@
 # Sürüm notları
 
+## v1.3.0 — 6 Kasım 2026
+
+### Eklendi
+- **Otomatik lisans etkinleştirme:** Satın aldıktan sonra Lisans sayfasında sipariş numaranızı ve e-postanızı yazmanız yeterli; lisans saniyeler içinde bu bilgisayara tanımlanır.
+- Hediye ve kampanya kodlarıyla etkinleştirme.
+
 ## v1.2.0 — 6 Kasım 2026
 
 ### Eklendi

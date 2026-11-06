@@ -12,15 +12,19 @@
   "_buyUrls": "Ödeme sayfası linklerini (ör. Shopier ürün linki) buraya yazın. Boş bırakılırsa 'Satın al' butonu e-posta açar.",
   "buyUrls": {},
 
+  "_activationUrl": "Lisans sunucusunun adresi (https://zetx-lisans.XXXXX.workers.dev). Boşsa (null) programda 'otomatik etkinleştir' kutusu gizlenir.",
+  "activationUrl": null,
+
   "_campaign": "Kampanya yoksa null yazın. Örnek: { \"text\": \"Açılışa özel tüm paketlerde %30 indirim\", \"until\": \"2026-11-20\" }",
   "campaign": null,
 
   "_latest": "Yeni sürüm yayınladığınızda version'ı artırın. Daha eski sürümü kullananlara 'Güncelleme var' bildirimi çıkar. required: true yaparsanız 'Sonra' butonu gizlenir.",
   "latest": {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "date": "2026-11-06",
     "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/latest",
     "notes": [
+      "Satın aldıktan sonra sipariş numarasıyla otomatik lisans etkinleştirme",
       "Lisans paketleri ve fiyatlar programda",
       "Güncelleme ve duyuru bildirimleri"
     ],

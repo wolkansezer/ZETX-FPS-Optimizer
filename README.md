@@ -195,9 +195,9 @@ Program ilk açılışta **3 gün ücretsiz**, tüm özellikleri açık olarak �
 Tüm paketlerde bütün özellikler açıktır. Güncel fiyatlar ve kampanyalar programın **Lisans** sayfasında görünür.
 
 **Lisans nasıl alınır?**
-1. Programın **Lisans** sayfasında istediğiniz paketin altındaki **Satın al** düğmesine basın. Makine kimliğiniz pakete eklenmiş olarak gelir.
-2. Ödeme sonrasında size özel lisans anahtarınız iletilir.
-3. Anahtarı Lisans sayfasına yapıştırıp **Etkinleştir**'e basın.
+1. Programın **Lisans** sayfasında istediğiniz paketin altındaki **Satın al** düğmesine basın ve ödemeyi tamamlayın.
+2. Lisans sayfasındaki **Satın aldıysanız: otomatik etkinleştir** kutusuna sipariş numaranızı ve ödeme yaptığınız e-posta adresini yazın.
+3. **Etkinleştir**'e basın. Lisansınız saniyeler içinde bu bilgisayara tanımlanır.
 
 Sorularınız için [volkan.sezer@outlook.com.tr](mailto:volkan.sezer@outlook.com.tr) adresine yazabilir ya da programın **İletişim** sayfasını kullanabilirsiniz.
 
