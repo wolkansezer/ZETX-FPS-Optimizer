@@ -13,7 +13,7 @@
   "buyUrls": {},
 
   "_activationUrl": "Lisans sunucusunun adresi (https://zetx-lisans.XXXXX.workers.dev). Boşsa (null) programda 'otomatik etkinleştir' kutusu gizlenir.",
-  "activationUrl": null,
+  "activationUrl": "https://zetx-lisans.volkan-sezer.workers.dev",
 
   "_campaign": "Kampanya yoksa null yazın. Örnek: { \"text\": \"Açılışa özel tüm paketlerde %30 indirim\", \"until\": \"2026-11-20\" }",
   "campaign": null,
