@@ -1,5 +1,13 @@
 # Sürüm notları
 
+## v1.2.0 — 6 Kasım 2026
+
+### Eklendi
+- **Lisans paketleri ve fiyatlar** programın Lisans sayfasında: 30 gün 149 TL, 3 ay 349 TL, 6 ay 599 TL, 1 yıl 999 TL. Her paketin altında **Satın al** düğmesi.
+- **Güncelleme bildirimi:** Yeni sürüm yayınlandığında programın üstünde "Yeni sürüm hazır" bandı ve yenilikler listesi.
+- **Duyurular:** Kampanya, çekiliş ve önemli bilgiler ana ekranda gösterilir.
+- Fiyatlar, kampanyalar ve duyurular yeni sürüm yayınlamadan güncellenebilir.
+
 ## v1.1.1 — 4 Kasım 2026
 
 ### Düzeltildi

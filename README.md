@@ -171,7 +171,7 @@ Ekran kartı paneli (NVIDIA / AMD) ve oyun içi ayarlar için kartınıza özel 
 
 > **Windows SmartScreen uyarısı:** Program henüz dijital olarak imzalanmadığı için Windows "Bilinmeyen yayımcı" uyarısı gösterebilir. **Ek bilgi** > **Yine de çalıştır** seçeneğine tıklayın.
 
-**Güncelleme:** Eski klasörü silip yeni sürümü çıkartmanız yeterlidir. Lisansınız ve ayar geçmişiniz korunur.
+**Güncelleme:** v1.2.0 ve sonrası yeni sürüm çıktığında programın içinde "Yeni sürüm hazır" bildirimi gösterir. Eski klasörü silip yeni sürümü çıkartmanız yeterlidir; lisansınız ve ayar geçmişiniz korunur.
 
 ## Hızlı başlangıç
 
@@ -185,17 +185,21 @@ Ekran kartı paneli (NVIDIA / AMD) ve oyun içi ayarlar için kartınıza özel 
 
 Program ilk açılışta **3 gün ücretsiz**, tüm özellikleri açık olarak çalışır. Deneme bitince abonelik paketlerinden biriyle devam edebilirsiniz:
 
-| Paket | Süre |
-| --- | --- |
-| Aylık | 30 gün |
-| 3 Aylık | 90 gün |
-| 6 Aylık | 180 gün |
-| Yıllık | 365 gün |
+| Paket | Fiyat | Aylık karşılığı |
+| --- | ---: | ---: |
+| 30 gün | **149 TL** | 149 TL |
+| 3 ay | **349 TL** | 116 TL (%22 avantajlı) |
+| 6 ay | **599 TL** | 100 TL (%33 avantajlı) |
+| 1 yıl | **999 TL** | 83 TL (%44 avantajlı) |
+
+Tüm paketlerde bütün özellikler açıktır. Güncel fiyatlar ve kampanyalar programın **Lisans** sayfasında görünür.
 
 **Lisans nasıl alınır?**
-1. Programın **Lisans** sayfasındaki **makine kimliğinizi** kopyalayın.
-2. Kimliği ve istediğiniz paketi [volkan.sezer@outlook.com.tr](mailto:volkan.sezer@outlook.com.tr) adresine gönderin (ya da programın **İletişim** sayfasını kullanın).
-3. Size özel lisans anahtarınız iletilir. Anahtarı Lisans sayfasına yapıştırıp **Etkinleştir**'e basın.
+1. Programın **Lisans** sayfasında istediğiniz paketin altındaki **Satın al** düğmesine basın. Makine kimliğiniz pakete eklenmiş olarak gelir.
+2. Ödeme sonrasında size özel lisans anahtarınız iletilir.
+3. Anahtarı Lisans sayfasına yapıştırıp **Etkinleştir**'e basın.
+
+Sorularınız için [volkan.sezer@outlook.com.tr](mailto:volkan.sezer@outlook.com.tr) adresine yazabilir ya da programın **İletişim** sayfasını kullanabilirsiniz.
 
 Lisans anahtarı yalnızca makine kimliği verilen bilgisayarda çalışır. Kalan gün sayısı programın üst köşesinde her zaman görünür.
 
