@@ -10,7 +10,12 @@
   ],
 
   "_buyUrls": "Ödeme sayfası linklerini (ör. Shopier ürün linki) buraya yazın. Boş bırakılırsa 'Satın al' butonu e-posta açar.",
-  "buyUrls": {},
+  "buyUrls": {
+    "m1": "https://www.shopier.com/zetxtv/52643065",
+    "m3": "https://www.shopier.com/zetxtv/52643131",
+    "m6": "https://www.shopier.com/zetxtv/52643154",
+    "y1": "https://www.shopier.com/zetxtv/52643199"
+  },
 
   "_activationUrl": "Lisans sunucusunun adresi (https://zetx-lisans.XXXXX.workers.dev). Boşsa (null) programda 'otomatik etkinleştir' kutusu gizlenir.",
   "activationUrl": "https://zetx-lisans.volkan-sezer.workers.dev",
