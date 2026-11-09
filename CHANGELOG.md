@@ -1,5 +1,18 @@
 # Sürüm notları
 
+## v1.4.0 — 9 Kasım 2026
+
+### Eklendi
+- **Oyun profilleri:** Oyun açılınca otomatik algılanır; güç planı ve işlem öncelikleri oyuna göre ayarlanır, oyun kapanınca geri alınır. Dengeli ve Rekabetçi profiller, oyun başına ayar ve özel oyun ekleme.
+- **Oyun içi overlay:** FPS, 1% low, kare süresi, GPU/CPU sıcaklığı ve kullanımı. Konum, boyut, saydamlık ve kısayol (Ctrl + Alt + F) ayarı.
+- **FPS karşılaştırma:** "Önce" ve "Sonra" ölçümleri yan yana; sonuç paylaşım kartı olarak PNG kaydetme ve panoya kopyalama.
+- Sistem tepsisinde çalışma ve Windows ile başlatma seçeneği.
+- FPS ölçümünü yönetici izni sormadan çalıştırma seçeneği.
+
+### İyileştirildi
+- Oyun içi izleme, overlay ve oyun profilleri aynı FPS ölçümünü paylaşır; aynı oyun için ikinci kez izin istenmez.
+- Overlay oyun sırasında hafif sensör okuması kullanır.
+
 ## v1.3.0 — 6 Kasım 2026
 
 ### Eklendi

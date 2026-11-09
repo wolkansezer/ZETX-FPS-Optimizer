@@ -125,6 +125,23 @@ Ekran kartı paneli (NVIDIA / AMD) ve oyun içi ayarlar için kartınıza özel 
 - Ekran kartı ve işlemci sıcaklıkları, yük, saat hızı ve güç tüketimi grafikle kaydedilir.
 - Oturum sonunda soğutma, ısıl kısma (throttling) ve darboğaz değerlendirmesi.
 
+### Oyun profilleri (v1.4)
+- Oyun açıldığında ZETX **otomatik algılar** ve seçtiğiniz profili uygular; oyun kapanınca **her şey eski haline döner**.
+- **Rekabetçi:** Nihai performans güç planı, oyuna "Yüksek" işlemci önceliği, tarayıcı, OneDrive ve Spotify gibi arka plan uygulamalarının önceliği düşürülür.
+- **Dengeli:** Yüksek performans güç planı ve oyuna "Normalin üstü" öncelik.
+- 30'dan fazla oyun hazır tanımlı; listede olmayan oyunu exe adıyla ekleyebilirsiniz. Her oyun için ayrı profil veya "Kapalı".
+- Yönetici izni gerekmez, kalıcı değişiklik yapılmaz. Pencereyi kapatsanız da sistem tepsisinde çalışır; isterseniz Windows ile başlar.
+
+### Oyun içi overlay (v1.4)
+- Oyunun köşesinde **FPS, 1% low, kare süresi, GPU/CPU sıcaklığı ve kullanımı, RAM ve GPU saat hızı**.
+- Konum, boyut, saydamlık ve gösterilecek değerler ayarlanabilir. Kısayol: **Ctrl + Alt + F**.
+- Oyun açılınca otomatik görünür, kapanınca gizlenir. Kenarlıksız tam ekran ve pencereli modda çalışır.
+- Bir kez izin verirseniz FPS ölçümü bir daha yönetici izni sormaz.
+
+### FPS karşılaştırma ve paylaşım kartı (v1.4)
+- Oyun içi izlemede **"Önce ölçümü"** ve **"Sonra ölçümü"** alın; ortalama FPS, 1% low, 0.1% low, takılma ve sıcaklık farkı yan yana gösterilir.
+- Sonuç tek tıkla **1080 × 1350 paylaşım kartına** dönüşür; PNG olarak kaydedin veya panoya kopyalayıp Discord'a yapıştırın.
+
 ### İnternet ve bufferbloat testi
 - İndirme, yükleme, boşta ping, jitter ve paket kaybı.
 - **Bufferbloat notu (A+ ile F arası):** Biri video izlerken ya da bir güncelleme inerken oyundaki ping'inizin ne kadar arttığını gösterir.
@@ -149,6 +166,8 @@ Ekran kartı paneli (NVIDIA / AMD) ve oyun içi ayarlar için kartınıza özel 
 
 | | |
 | :---: | :---: |
+| ![Oyun profilleri](docs/screenshots/gprofiles.png) **Oyun profilleri** | ![Oyun içi overlay](docs/screenshots/overlay.png) **Oyun içi overlay** |
+| ![FPS karşılaştırma](docs/screenshots/compare.png) **FPS karşılaştırma** | ![Paylaşım kartı](docs/screenshots/share-card.png) **Paylaşım kartı** |
 | ![Arıza teşhisi](docs/screenshots/diag.png) **Arıza teşhisi** | ![FPS optimizasyonu](docs/screenshots/opt.png) **Tek tık FPS optimizasyonu** |
 | ![Oyun uygunluğu](docs/screenshots/games.png) **Oyun uygunluğu** | ![Performans testleri](docs/screenshots/bench.png) **Performans testleri** |
 | ![İnternet ve bufferbloat](docs/screenshots/net.png) **İnternet ve bufferbloat** | ![Donanım](docs/screenshots/hardware.png) **Donanım** |
