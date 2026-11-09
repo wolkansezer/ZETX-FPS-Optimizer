@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/latest"><b>⬇ Son sürümü indir</b></a>
+  <a href="https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases"><b>⬇ Son sürümü indir</b></a>
 </p>
 
 ![Sistem paneli](docs/screenshots/home.png)
@@ -184,7 +184,7 @@ Ekran kartı paneli (NVIDIA / AMD) ve oyun içi ayarlar için kartınıza özel 
 
 ## Kurulum
 
-1. [Releases](https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/latest) sayfasından `ZETX-FPS-Optimizer-vX.X.X-Windows.zip` dosyasını indirin.
+1. [Releases](https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases) sayfasından `ZETX-FPS-Optimizer-vX.X.X-Windows.zip` dosyasını indirin.
 2. Zip'i bir klasöre çıkartın (ör. Masaüstü veya `C:\Oyun Araçları`).
 3. `ZETX FPS Optimizer.exe` dosyasını çalıştırın. Kurulum gerekmez.
 
