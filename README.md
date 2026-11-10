@@ -125,6 +125,31 @@ Ekran kartı paneli (NVIDIA / AMD) ve oyun içi ayarlar için kartınıza özel 
 - Ekran kartı ve işlemci sıcaklıkları, yük, saat hızı ve güç tüketimi grafikle kaydedilir.
 - Oturum sonunda soğutma, ısıl kısma (throttling) ve darboğaz değerlendirmesi.
 
+### Gecikme testi (v1.5)
+- LatencyMon benzeri ölçüm: Windows çekirdek olay izlemesi (ETW) ile her sürücünün **DPC ve ISR** süreleri.
+- Takılma, ses cızırtısı ve giriş gecikmesine hangi sürücünün (ekran kartı, ağ, USB, ses, depolama) neden olduğunu bulur ve çözüm önerir.
+- Windows zamanlayıcı gecikmesi ve dağılım grafiği.
+
+### İşlemci analizi ve tam güç protokolü (v1.5)
+- Çekirdek/izlek, P/E çekirdek ve CCD yapısı; çekirdek başına yük, saat hızı ve park durumu.
+- **En hızlı çekirdekleri bul** (tercihli çekirdek testi) ve **tam yük testi** (ısıl/güç kısıtlaması tespiti).
+- İşlemci ailesine özel öneriler: Ryzen (CPPC, PBO, EXPO), **çift CCD X3D için doğru ayarlar**, Intel 13./14. nesil mikro kod uyarısı, hibrit mimari.
+- Tek tıkla tam güç protokolü (güç planı, en düşük işlemci durumu, turbo, çekirdek park etme) ve geri alma.
+
+### Sıcaklık ve fanlar (v1.5)
+- HWiNFO, LibreHardwareMonitor, AIDA64, Core Temp, NVIDIA ve ACPI kaynaklarından tüm sıcaklık ve fan hızları.
+- Güvenlik riski taşıyan çekirdek sürücüsü kurmaz (WinRing0, Windows Defender tarafından engellenmektedir).
+- Windows soğutma ilkesi, anakart markasına göre BIOS fan eğrisi yönlendirmesi ve resmi fan yazılımı önerileri.
+
+### Diskler (v1.5)
+- Tüm SSD ve HDD'ler: sağlık, sıcaklık, ömür, hata sayaçları, TRIM, 4K hizalama ve doluluk.
+- Önbelleksiz gerçek **sıralı ve 4K rastgele okuma/yazma** testi, beklenen hızla karşılaştırma.
+- TRIM, birleştirme, hata denetimi ve son erişim zaman damgası iyileştirmeleri.
+
+### Sürücü ve BIOS denetimi (v1.5)
+- BIOS, ekran kartı, yonga seti, Ethernet, Wi-Fi ve ses sürücüsü sürümleri; eskiyse uyarı.
+- Yalnızca üreticilerin **resmi indirme sayfalarına** yönlendirir.
+
 ### Oyun profilleri (v1.4)
 - Oyun açıldığında ZETX **otomatik algılar** ve seçtiğiniz profili uygular; oyun kapanınca **her şey eski haline döner**.
 - **Rekabetçi:** Nihai performans güç planı, oyuna "Yüksek" işlemci önceliği, tarayıcı, OneDrive ve Spotify gibi arka plan uygulamalarının önceliği düşürülür.
@@ -166,6 +191,8 @@ Ekran kartı paneli (NVIDIA / AMD) ve oyun içi ayarlar için kartınıza özel 
 
 | | |
 | :---: | :---: |
+| ![Gecikme testi](docs/screenshots/latency.png) **Gecikme testi** | ![İşlemci analizi](docs/screenshots/cpu.png) **İşlemci analizi** |
+| ![Sıcaklık ve fanlar](docs/screenshots/thermal.png) **Sıcaklık ve fanlar** | ![Sürücü ve BIOS](docs/screenshots/drivers.png) **Sürücü ve BIOS** |
 | ![Oyun profilleri](docs/screenshots/gprofiles.png) **Oyun profilleri** | ![Oyun içi overlay](docs/screenshots/overlay.png) **Oyun içi overlay** |
 | ![FPS karşılaştırma](docs/screenshots/compare.png) **FPS karşılaştırma** | ![Paylaşım kartı](docs/screenshots/share-card.png) **Paylaşım kartı** |
 | ![Arıza teşhisi](docs/screenshots/diag.png) **Arıza teşhisi** | ![FPS optimizasyonu](docs/screenshots/opt.png) **Tek tık FPS optimizasyonu** |
@@ -280,6 +307,8 @@ Tüm değişiklikler için [CHANGELOG.md](CHANGELOG.md) dosyasına bakın.
 Sorular, lisans talepleri, hata bildirimleri ve öneriler için:
 
 **Volkan Sezer**: [volkan.sezer@outlook.com.tr](mailto:volkan.sezer@outlook.com.tr)
+
+**Discord topluluğu**: [discord.gg/ZHeG6Pq42](https://discord.gg/ZHeG6Pq42) — sorular, öneriler ve duyurular için en hızlı yol.
 
 Hata bildirirken programın **Rapor** sayfasından aldığınız raporu eklemeniz sorunu hızlı çözmemize yardımcı olur. GitHub üzerinden [Issues](https://github.com/wolkansezer/ZETX-FPS-Optimizer/issues) bölümünü de kullanabilirsiniz.
 

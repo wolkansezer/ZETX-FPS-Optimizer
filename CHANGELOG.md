@@ -1,5 +1,24 @@
 # Sürüm notları
 
+## v1.5.0 — 10 Kasım 2026
+
+### Eklendi
+- **Gecikme testi:** Sürücü bazlı DPC/ISR gecikmesi (ETW) ve Windows zamanlayıcı gecikmesi; sorunlu sürücü için çözüm önerileri.
+- **İşlemci analizi:** Çekirdek yapısı, çekirdek başına saat ve park durumu, en hızlı çekirdek testi, tam yük testi ve işlemci ailesine özel tam güç protokolü.
+- **Sıcaklık ve fanlar:** HWiNFO, LibreHardwareMonitor, AIDA64, Core Temp, NVIDIA ve ACPI okuma protokolleri; soğutma ilkesi ve fan yönetimi önerileri.
+- **Diskler:** Birden çok SSD/HDD desteği, sağlık, TRIM, hizalama, önbelleksiz okuma/yazma testi ve iyileştirmeler.
+- **Sürücü ve BIOS:** Sürüm denetimi, eski sürücü uyarısı ve resmi indirme bağlantıları.
+- **Ağ:** QoS paket zamanlayıcıyı kapatma ve ağ kartı oyun profili (kesme denetimi, EEE, Green Ethernet, akış denetimi, LSO, güç tasarrufu), yedekli geri alma ve öneriler.
+- **FPS optimizasyonu:** 9 yeni ayar (işlemciyi tam güçte tut, çekirdek park etmeyi kapat, zamanlayıcı çözünürlüğü, SysMain, Edge arka plan, pencere öğeleri, hata raporlama, menü gecikmesi, tam ekran iyileştirmeleri) ve ayrıntı açıklamaları.
+- **Temizlik:** Prefetch, gereksiz Windows günlükleri, telemetri/tanılama verileri, etkinlik geçmişi, teslim iyileştirme önbelleği, tarayıcı ve başlatıcı önbellekleri, Geri Dönüşüm Kutusu.
+- **FPS karşılaştırma:** Önceki FPS'i elle girme ve PresentMon / FrameView / CapFrameX CSV içe aktarma.
+- **Arıza teşhisi:** Giderilmeyen sorunlar sonraki taramalarda "Giderilmedi" olarak işaretlenir; düzelenler "Giderildi" listesine alınır.
+- Discord destek alanı ve Shopier üyelik hatırlatması.
+
+### Düzeltildi
+- Oyun içi overlay'de FPS'in görünmemesi: FPS ölçümü artık tüm oyunları otomatik tanır, yetki sorununu kendisi çözer ve "Ölçümü sına" ile neyin engellediğini gösterir.
+- Oyun profilleri sayfası sadeleştirildi.
+
 ## v1.4.0 — 9 Kasım 2026
 
 ### Eklendi

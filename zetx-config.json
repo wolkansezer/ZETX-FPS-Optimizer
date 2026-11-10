@@ -36,6 +36,15 @@
     "required": false
   },
 
+  "_drivers": "Sürücü ve BIOS sayfasının karşılaştırdığı en güncel sürümler. Yeni sürücü çıktığında buradan güncelleyin.",
+  "drivers": {
+    "nvidia": { "version": "621.14", "date": "2026-11-05" },
+    "amdGpu": { "version": "26.10.1", "date": "2026-10" },
+    "amdChipset": { "version": "8.08.12.551", "date": "2026" }
+  },
+
+  "discord": "https://discord.gg/ZHeG6Pq42",
+
   "_announcements": "Programın ana ekranında gösterilecek duyurular. Her duyurunun id'si farklı olmalı. until (son gün) ve url isteğe bağlıdır.",
   "announcements": []
 }
