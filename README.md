@@ -262,6 +262,9 @@ Lisans anahtarı yalnızca makine kimliği verilen bilgisayarda çalışır. Kal
 
 ## Sık sorulan sorular
 
+**Programı nasıl güncellerim?**
+v1.5.0 ve sonrasında GitHub'a gitmenize gerek yok. Yeni sürüm çıktığında programın üstünde "Yeni sürüm hazır" bildirimi ve güncelleme notları görünür; **Şimdi güncelle** düğmesine basmanız yeterli. Güncelleme imzayla doğrulanır, lisansınız ve ayarlarınız korunur.
+
 <details>
 <summary><b>Program bilgisayarıma zarar verir mi?</b></summary>
 

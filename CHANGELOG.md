@@ -3,6 +3,7 @@
 ## v1.5.0 — 10 Kasım 2026
 
 ### Eklendi
+- **Program içi güncelleme:** Yeni sürüm çıktığında "Şimdi güncelle" ile program kendini indirir, Volkan Sezer imzasıyla doğrular, kurar ve yeniden açılır. GitHub sayfasına gitmek gerekmez; hata olursa önceki sürüm geri yüklenir. Güncelleme notları sürüm bilgisinin altında açıklamalı gösterilir.
 - **Gecikme testi:** Sürücü bazlı DPC/ISR gecikmesi (ETW) ve Windows zamanlayıcı gecikmesi; sorunlu sürücü için çözüm önerileri.
 - **İşlemci analizi:** Çekirdek yapısı, çekirdek başına saat ve park durumu, en hızlı çekirdek testi, tam yük testi ve işlemci ailesine özel tam güç protokolü.
 - **Sıcaklık ve fanlar:** HWiNFO, LibreHardwareMonitor, AIDA64, Core Temp, NVIDIA ve ACPI okuma protokolleri; soğutma ilkesi ve fan yönetimi önerileri.
