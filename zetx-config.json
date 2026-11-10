@@ -25,15 +25,28 @@
 
   "_latest": "Yeni sürüm yayınladığınızda version'ı artırın. Daha eski sürümü kullananlara 'Güncelleme var' bildirimi çıkar. required: true yaparsanız 'Sonra' butonu gizlenir.",
   "latest": {
-    "version": "1.4.0",
-    "date": "2026-11-09",
-    "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/tag/v1.4.0",
+    "version": "1.5.0",
+    "date": "2026-11-10",
+    "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/tag/v1.5.0",
     "notes": [
-      "Oyun profilleri: oyun açılınca otomatik algılama, kapanınca ayarları geri alma",
-      "Oyun içi overlay: FPS, 1% low, sıcaklık ve kullanım (Ctrl + Alt + F)",
-      "FPS karşılaştırma: önce/sonra ölçümü ve paylaşım kartı"
+      "Program içi güncelleme — yeni sürümler artık GitHub'a gitmeden, programın içinden tek tıkla iner, imzayla doğrulanır ve kurulur",
+      "Gecikme testi — hangi sürücünün takılma ve ses cızırtısı yaptığını (DPC/ISR) bulur ve çözüm önerir",
+      "İşlemci analizi — çekirdek yapısı, en hızlı çekirdekler, tam yük testi ve işlemcinize özel tam güç ayarları",
+      "Sıcaklık ve fanlar — HWiNFO, LibreHardwareMonitor, AIDA64, Core Temp ve NVIDIA'dan tüm sensörler",
+      "Diskler — tüm SSD/HDD'lerin sağlığı, TRIM ve gerçek okuma/yazma hız testi",
+      "Sürücü ve BIOS — eski sürücüleri bulur, resmi indirme sayfasını açar",
+      "Ağ — QoS paket zamanlayıcıyı kapatma ve ağ kartı oyun profili",
+      "FPS optimizasyonu — 9 yeni ayar; temizlikte telemetri, prefetch ve gereksiz günlük temizliği",
+      "Overlay düzeltmesi — FPS artık her oyunda otomatik ölçülür; 'Ölçümü sına' ile sorun gösterilir",
+      "FPS karşılaştırma — önceki FPS'i elle girme ve CSV içe aktarma; arıza teşhisinde giderilmeyen sorun takibi"
     ],
-    "required": false
+    "required": false,
+    "download": {
+      "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/download/v1.5.0/ZETX-FPS-Optimizer-v1.5.0-Windows.zip",
+      "size": 158373566,
+      "sha256": "cd90c650660641aeb03234173ff70da0075c56310fd2d58fbd6bd178b37ffa98",
+      "sig": "yN/TyDOybPRfTdb0x4RXGi+hA/4iQZvPnYbB2Jv+p4rEPFls1U7Va9cBtPjj2Yet77zYMBKljRONJq3iJK7kBg=="
+    }
   },
 
   "_drivers": "Sürücü ve BIOS sayfasının karşılaştırdığı en güncel sürümler. Yeni sürücü çıktığında buradan güncelleyin.",
