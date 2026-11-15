@@ -1,14 +1,41 @@
 {
   "_aciklama": "ZETX FPS Optimizer uzaktan ayarları. Bu dosyayı GitHub'da düzenleyip kaydettiğinizde (Commit changes) programı kullanan herkes birkaç dakika içinde yeni fiyatları, güncellemeyi ve duyuruları görür. Program açılışta ve her 3 saatte bir bu dosyayı okur.",
-
   "currency": "TL",
   "plans": [
-    { "id": "m1", "name": "30 gün", "label": "Aylık",                "price": 149, "per": "149 TL / ay", "note": "" },
-    { "id": "m3", "name": "3 ay",   "label": "En çok tercih edilen", "price": 349, "per": "116 TL / ay", "note": "%22 avantajlı", "best": true },
-    { "id": "m6", "name": "6 ay",   "label": "Avantajlı",            "price": 599, "per": "100 TL / ay", "note": "%33 avantajlı" },
-    { "id": "y1", "name": "1 yıl",  "label": "En avantajlı",         "price": 999, "per": "83 TL / ay",  "note": "%44 avantajlı" }
+    {
+      "id": "m1",
+      "name": "30 gün",
+      "label": "Aylık",
+      "price": 149,
+      "per": "149 TL / ay",
+      "note": ""
+    },
+    {
+      "id": "m3",
+      "name": "3 ay",
+      "label": "En çok tercih edilen",
+      "price": 349,
+      "per": "116 TL / ay",
+      "note": "%22 avantajlı",
+      "best": true
+    },
+    {
+      "id": "m6",
+      "name": "6 ay",
+      "label": "Avantajlı",
+      "price": 599,
+      "per": "100 TL / ay",
+      "note": "%33 avantajlı"
+    },
+    {
+      "id": "y1",
+      "name": "1 yıl",
+      "label": "En avantajlı",
+      "price": 999,
+      "per": "83 TL / ay",
+      "note": "%44 avantajlı"
+    }
   ],
-
   "_buyUrls": "Ödeme sayfası linklerini (ör. Shopier ürün linki) buraya yazın. Boş bırakılırsa 'Satın al' butonu e-posta açar.",
   "buyUrls": {
     "m1": "https://www.shopier.com/zetxtv/52643065",
@@ -16,48 +43,53 @@
     "m6": "https://www.shopier.com/zetxtv/52643154",
     "y1": "https://www.shopier.com/zetxtv/52643199"
   },
-
   "_activationUrl": "Lisans sunucusunun adresi (https://zetx-lisans.XXXXX.workers.dev). Boşsa (null) programda 'otomatik etkinleştir' kutusu gizlenir.",
   "activationUrl": "https://zetx-lisans.volkan-sezer.workers.dev",
-
   "_campaign": "Kampanya yoksa null yazın. Örnek: { \"text\": \"Açılışa özel tüm paketlerde %30 indirim\", \"until\": \"2026-11-20\" }",
   "campaign": null,
-
   "_latest": "Yeni sürüm yayınladığınızda version'ı artırın. Daha eski sürümü kullananlara 'Güncelleme var' bildirimi çıkar. required: true yaparsanız 'Sonra' butonu gizlenir.",
   "latest": {
-    "version": "1.5.0",
-    "date": "2026-11-10",
-    "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/tag/v1.5.0",
+    "version": "1.5.1",
+    "date": "2026-11-15",
+    "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/tag/v1.5.1",
     "notes": [
-      "Program içi güncelleme — yeni sürümler artık GitHub'a gitmeden, programın içinden tek tıkla iner, imzayla doğrulanır ve kurulur",
-      "Gecikme testi — hangi sürücünün takılma ve ses cızırtısı yaptığını (DPC/ISR) bulur ve çözüm önerir",
-      "İşlemci analizi — çekirdek yapısı, en hızlı çekirdekler, tam yük testi ve işlemcinize özel tam güç ayarları",
-      "Sıcaklık ve fanlar — HWiNFO, LibreHardwareMonitor, AIDA64, Core Temp ve NVIDIA'dan tüm sensörler",
-      "Diskler — tüm SSD/HDD'lerin sağlığı, TRIM ve gerçek okuma/yazma hız testi",
-      "Sürücü ve BIOS — eski sürücüleri bulur, resmi indirme sayfasını açar",
-      "Ağ — QoS paket zamanlayıcıyı kapatma ve ağ kartı oyun profili",
-      "FPS optimizasyonu — 9 yeni ayar; temizlikte telemetri, prefetch ve gereksiz günlük temizliği",
-      "Overlay düzeltmesi — FPS artık her oyunda otomatik ölçülür; 'Ölçümü sına' ile sorun gösterilir",
-      "FPS karşılaştırma — önceki FPS'i elle girme ve CSV içe aktarma; arıza teşhisinde giderilmeyen sorun takibi"
+      "Donanım ayarları — RAM'in XMP/EXPO'su kapalı mı, tek kanal mı, Resizable BAR, Bellek Bütünlüğü, ekran yenileme hızı ve monitör kablosunu kontrol eder; BIOS adımlarını anakartınıza göre gösterir",
+      "Ekran kartı profili — NVIDIA'da güç yönetimi, düşük gecikme, doku filtreleme ve gölgelendirici önbelleği tek tıkla en iyi ayara gelir; AMD ve Intel için adım adım rehber",
+      "English — program artık İngilizce de kullanılabilir (sağ üstteki dil seçimi)",
+      "Formata dayanıklı lisans — lisans bilgisayarın donanımına bağlanır; Windows'u yeniden kursanız bile sipariş numaranızla tekrar etkinleştirebilirsiniz. Mevcut lisanslar otomatik taşınır",
+      "Daha anlaşılır lisans hataları — sunucuya ulaşılamadığında ne yapmanız gerektiği yazar"
+    ],
+    "notes_en": [
+      "Hardware settings — checks whether RAM XMP/EXPO is off, single-channel RAM, Resizable BAR, Memory Integrity, display refresh rate and the monitor cable; shows BIOS steps for your motherboard",
+      "GPU profile — sets NVIDIA power management, low latency, texture filtering and shader cache to the best values in one click; step-by-step guide for AMD and Intel",
+      "English — the program is now available in English (language menu at the top right)",
+      "Format-proof license — the license is tied to your hardware; even after reinstalling Windows you can reactivate with your order number. Existing licenses are moved automatically",
+      "Clearer license errors — tells you what to do when the server can't be reached"
     ],
     "required": false,
     "download": {
-      "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/download/v1.5.0/ZETX-FPS-Optimizer-v1.5.0-Windows.zip",
-      "size": 158373566,
-      "sha256": "cd90c650660641aeb03234173ff70da0075c56310fd2d58fbd6bd178b37ffa98",
-      "sig": "yN/TyDOybPRfTdb0x4RXGi+hA/4iQZvPnYbB2Jv+p4rEPFls1U7Va9cBtPjj2Yet77zYMBKljRONJq3iJK7kBg=="
+      "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/download/v1.5.1/ZETX-FPS-Optimizer-v1.5.1-Windows.zip",
+      "size": 159156431,
+      "sha256": "b7bd6afec1af57b862ad8918baa37dbbc6de989ffe583c5f98fe0f318f1f967c",
+      "sig": "+FGjYyj0Y5eggyRht1hgzWUXd5FzrGmBXjuDDbk9CKeps3t+I19JAl3b96LYcoMabKlGrcCn8lOvdtFH/VPhCw=="
     }
   },
-
   "_drivers": "Sürücü ve BIOS sayfasının karşılaştırdığı en güncel sürümler. Yeni sürücü çıktığında buradan güncelleyin.",
   "drivers": {
-    "nvidia": { "version": "621.14", "date": "2026-11-05" },
-    "amdGpu": { "version": "26.10.1", "date": "2026-10" },
-    "amdChipset": { "version": "8.08.12.551", "date": "2026" }
+    "nvidia": {
+      "version": "621.14",
+      "date": "2026-11-05"
+    },
+    "amdGpu": {
+      "version": "26.10.1",
+      "date": "2026-10"
+    },
+    "amdChipset": {
+      "version": "8.08.12.551",
+      "date": "2026"
+    }
   },
-
   "discord": "https://discord.gg/ZHeG6Pq42",
-
   "_announcements": "Programın ana ekranında gösterilecek duyurular. Her duyurunun id'si farklı olmalı. until (son gün) ve url isteğe bağlıdır.",
   "announcements": []
 }
