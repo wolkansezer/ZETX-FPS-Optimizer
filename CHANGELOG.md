@@ -1,5 +1,17 @@
 # Sürüm notları
 
+## v1.5.1 — 15 Kasım 2026
+
+### Eklendi
+- **Donanım ayarları kontrolü:** RAM XMP/EXPO (kit modeli ve çalışma hızına göre), çift kanal ve yanlış yuva, karışık RAM kitleri, Resizable BAR / Smart Access Memory, Bellek Bütünlüğü (VBS/HVCI), ekran yenileme hızı (tek tıkla en yüksek Hz'e geçirme), çözünürlük, monitör kablosunun anakarta takılı olması ve ekran kartı PCIe hat genişliği. BIOS ayarları için anakart markasına göre (ASUS, MSI, GIGABYTE, ASRock) adım adım yol ve "BIOS'a yeniden başlat".
+- **Ekran kartı profili:** NVIDIA sürücüsünün küresel profiline güç yönetimi "maksimum performans", düşük gecikme modu, doku filtreleme "yüksek performans" ve 10 GB gölgelendirici önbelleği; önceki değerler yedeklenir ve tek tıkla geri alınır. AMD Adrenalin ve Intel için adım adım rehber.
+- **İngilizce dil desteği:** Sağ üstteki dil seçimiyle tüm arayüz, menüler ve overlay İngilizce.
+- **Formata dayanıklı lisans:** Lisans artık bilgisayarın donanımına bağlıdır; Windows yeniden kurulsa da sipariş numarası ve e-postayla aynı bilgisayarda tekrar etkinleştirilir. Önceki sürümlerde etkinleştirilen lisanslar ilk açılışta otomatik taşınır.
+
+### Düzeltildi
+- Lisans sunucusuna ulaşılamadığında "geçersiz yanıt" yerine anlaşılır bir mesaj gösterilir.
+- Güncelleme notları başlık ve açıklama olarak ayrı gösterilir.
+
 ## v1.5.0 — 10 Kasım 2026
 
 ### Eklendi

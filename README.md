@@ -125,6 +125,17 @@ Ekran kartı paneli (NVIDIA / AMD) ve oyun içi ayarlar için kartınıza özel 
 - Ekran kartı ve işlemci sıcaklıkları, yük, saat hızı ve güç tüketimi grafikle kaydedilir.
 - Oturum sonunda soğutma, ısıl kısma (throttling) ve darboğaz değerlendirmesi.
 
+### Donanım ayarları kontrolü (v1.5.1)
+- Oyuncuların çoğunda görülen ve fark edilmeden FPS kaybettiren kurulum hatalarını bulur: **RAM'in XMP/EXPO profili kapalı**, **tek kanal RAM** veya yanlış yuva, kapalı **Resizable BAR / Smart Access Memory**, **Bellek Bütünlüğü (VBS)**, ekranın düşük **yenileme hızında** çalışması, **monitör kablosunun anakarta takılı** olması ve ekran kartının eksik **PCIe hat genişliği**.
+- BIOS ayarlarının nereden açılacağını anakart markanıza göre (ASUS, MSI, GIGABYTE, ASRock) adım adım gösterir; tek tıkla **BIOS'a yeniden başlatır**. Ekran yenileme hızını tek tıkla en yüksek değere geçirir.
+
+### Ekran kartı profili (v1.5.1)
+- NVIDIA'da **güç yönetimi "maksimum performans"**, **düşük gecikme modu**, **doku filtreleme "yüksek performans"** ve **10 GB gölgelendirici önbelleği** tek tıkla sürücüye yazılır; önceki değerler yedeklenir ve geri alınabilir.
+- AMD ve Intel için Adrenalin / Intel Graphics Software'de yapılacak ayarlar adım adım gösterilir.
+
+### English
+- Program artık **İngilizce** de kullanılabilir. Sağ üstteki dil seçiminden Türkçe / English arasında geçiş yapın.
+
 ### Gecikme testi (v1.5)
 - LatencyMon benzeri ölçüm: Windows çekirdek olay izlemesi (ETW) ile her sürücünün **DPC ve ISR** süreleri.
 - Takılma, ses cızırtısı ve giriş gecikmesine hangi sürücünün (ekran kartı, ağ, USB, ses, depolama) neden olduğunu bulur ve çözüm önerir.
@@ -247,7 +258,7 @@ Tüm paketlerde bütün özellikler açıktır. Güncel fiyatlar ve kampanyalar 
 
 Sorularınız için [volkan.sezer@outlook.com.tr](mailto:volkan.sezer@outlook.com.tr) adresine yazabilir ya da programın **İletişim** sayfasını kullanabilirsiniz.
 
-Lisans anahtarı yalnızca makine kimliği verilen bilgisayarda çalışır. Kalan gün sayısı programın üst köşesinde her zaman görünür.
+Lisans bilgisayarınızın donanımına bağlıdır. **Windows'u yeniden kursanız (format) bile** sipariş numaranız ve e-postanızla aynı bilgisayarda tekrar etkinleştirebilirsiniz. Kalan gün sayısı programın üst köşesinde her zaman görünür.
 
 ## Sistem gereksinimleri
 
@@ -298,7 +309,7 @@ Evet. Dizüstünde Rekabetçi profil pil süresini kısaltabilir; Dengeli profil
 <details>
 <summary><b>Lisansımı başka bir bilgisayara taşıyabilir miyim?</b></summary>
 
-Lisans anahtarı makine kimliğine bağlıdır. Bilgisayar değiştirdiğinizde yeni makine kimliğinizle bize yazın.
+Lisans bilgisayarın donanımına bağlıdır. Aynı bilgisayara Windows'u yeniden kurduğunuzda sipariş numaranızla kendiniz tekrar etkinleştirebilirsiniz. Bilgisayar (anakart) değiştirdiğinizde Discord'dan veya e-postayla bize yazın.
 </details>
 
 ## Sürüm notları
