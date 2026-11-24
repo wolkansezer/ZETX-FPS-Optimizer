@@ -1,5 +1,20 @@
 # Sürüm notları
 
+## v1.5.2 — 24 Kasım 2026
+
+### Eklendi
+- **Kurulum dosyası (Setup):** Yönetici izni istemeyen kurulum; Başlat menüsü ve masaüstü kısayolu, Windows "Uygulamalar" listesinden kaldırma. Program içi güncelleme kurulu sürümde de çalışır.
+- **7 yeni FPS ayarı:** Arka plan pencerelerinin oyunun önüne geçmesini engelleme, Game DVR'ı ilkeyle kapatma, svchost hizmet birleştirme, çekirdeği RAM'de tutma, arka plan uygulama ilkesi, Windows Arama dizinlemesini kapatma ve MPO'yu kapatma (çift monitör titremesi için).
+- **Disk testi:** Performans testlerinde test edilecek sürücüyü seçme veya tüm sürücüleri sırayla test etme; Diskler sayfasında "Tüm sürücüleri test et".
+
+### Düzeltildi
+- **Monitör bilgileri:** 360 Hz gibi yüksek yenileme hızları ve çift/çoklu monitör doğru gösterilir; her ekranın adı, çözünürlüğü, çalıştığı ve desteklediği en yüksek Hz ayrı listelenir.
+- **FPS optimizasyonu "Geri al":** Kayıt defteri değerleri ZETX öncesi hâline gerçekten döner ve doğrulanır (boş değerli ayarların silinmesi ve büyük sayıların yazılamaması düzeltildi). Yedeği olmayan ayarlar Windows varsayılanına döndürülür.
+- **NVMe SSD'lerin SATA görünmesi:** Intel RST/VMD, RAID veya üretici sürücüsü kullanan sistemlerde M.2 NVMe diskler doğru tanınır; M.2 SATA diskler ayrıca belirtilir. Disk hız sınıflandırması düzeltildi.
+- **Sürücüler:** Güncel sürücü kurulduğu hâlde "eski" görünmesi düzeltildi; birden fazla kayıt olduğunda en yeni sürüm esas alınır, en güncel sürüm listesi yenilendi (NVIDIA 621.24, AMD Adrenalin 26.11.2, AMD Chipset 8.09.28.1124).
+- **Lisans etkinleştirme:** Bağlantı veya antivirüs kaynaklı bozuk yanıtlarda otomatik yeniden deneme (Windows sertifika deposunu kullanan ikinci bağlantı yolu).
+- İngilizce arayüzde güncelleme kartındaki "Later" düğmesi.
+
 ## v1.5.1 — 15 Kasım 2026
 
 ### Eklendi
