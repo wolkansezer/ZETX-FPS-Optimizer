@@ -49,30 +49,34 @@
   "campaign": null,
   "_latest": "Yeni sürüm yayınladığınızda version'ı artırın. Daha eski sürümü kullananlara 'Güncelleme var' bildirimi çıkar. required: true yaparsanız 'Sonra' butonu gizlenir.",
   "latest": {
-    "version": "1.5.1",
-    "date": "2026-11-15",
-    "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/tag/v1.5.1",
-    "notes": [
-      "Donanım ayarları — RAM'in XMP/EXPO'su kapalı mı, tek kanal mı, Resizable BAR, Bellek Bütünlüğü, ekran yenileme hızı ve monitör kablosunu kontrol eder; BIOS adımlarını anakartınıza göre gösterir",
-      "Ekran kartı profili — NVIDIA'da güç yönetimi, düşük gecikme, doku filtreleme ve gölgelendirici önbelleği tek tıkla en iyi ayara gelir; AMD ve Intel için adım adım rehber",
-      "English — program artık İngilizce de kullanılabilir (sağ üstteki dil seçimi)",
-      "Formata dayanıklı lisans — lisans bilgisayarın donanımına bağlanır; Windows'u yeniden kursanız bile sipariş numaranızla tekrar etkinleştirebilirsiniz. Mevcut lisanslar otomatik taşınır",
-      "Daha anlaşılır lisans hataları — sunucuya ulaşılamadığında ne yapmanız gerektiği yazar"
-    ],
-    "notes_en": [
-      "Hardware settings — checks whether RAM XMP/EXPO is off, single-channel RAM, Resizable BAR, Memory Integrity, display refresh rate and the monitor cable; shows BIOS steps for your motherboard",
-      "GPU profile — sets NVIDIA power management, low latency, texture filtering and shader cache to the best values in one click; step-by-step guide for AMD and Intel",
-      "English — the program is now available in English (language menu at the top right)",
-      "Format-proof license — the license is tied to your hardware; even after reinstalling Windows you can reactivate with your order number. Existing licenses are moved automatically",
-      "Clearer license errors — tells you what to do when the server can't be reached"
-    ],
+    "version": "1.5.2",
+    "date": "2026-11-24",
+    "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/tag/v1.5.2",
     "required": false,
     "download": {
-      "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/download/v1.5.1/ZETX-FPS-Optimizer-v1.5.1-Windows.zip",
-      "size": 159156431,
-      "sha256": "b7bd6afec1af57b862ad8918baa37dbbc6de989ffe583c5f98fe0f318f1f967c",
-      "sig": "+FGjYyj0Y5eggyRht1hgzWUXd5FzrGmBXjuDDbk9CKeps3t+I19JAl3b96LYcoMabKlGrcCn8lOvdtFH/VPhCw=="
-    }
+      "url": "https://github.com/wolkansezer/ZETX-FPS-Optimizer/releases/download/v1.5.2/ZETX-FPS-Optimizer-v1.5.2-Windows.zip",
+      "size": 158464025,
+      "sha256": "d2aa82045fbee95025df1c950c94fcd5ef6fc42a6447be3167ab771751cf4bfa",
+      "sig": "69B+SHCVvbvPytWFuw3Yy7lHLL1IBUJOqTsjlEtbEnMNr1tQpL6S4/m8R2WM2+MwG/kRRE2wUJ5tBDfpiYYlBw=="
+    },
+    "notes": [
+      "Kurulum dosyası — artık Setup ile kurulabiliyor: Başlat menüsü ve masaüstü kısayolu, Uygulamalar listesinden kaldırma",
+      "Monitörler düzeltildi — 360 Hz gibi yüksek yenileme hızları ve çift monitör doğru gösteriliyor; her ekranın desteklediği en yüksek Hz ayrıca belirtiliyor",
+      "Geri al düzeltildi — FPS optimizasyonunda değiştirilen kayıt defteri ayarları ZETX öncesi hâline gerçekten dönüyor ve doğrulanıyor",
+      "7 yeni FPS ayarı — oyunun önüne geçen pencereleri engelleme, Game DVR ilkesi, svchost birleştirme, çekirdeği RAM'de tutma, Windows Arama ve MPO (çift monitör titremesi)",
+      "Disk testi — birden fazla diski seçerek ya da hepsini sırayla test etme; M.2 NVMe SSD'lerin SATA görünmesi düzeltildi",
+      "Sürücüler — güncel sürücü kurulu olduğu hâlde eski görünmesi düzeltildi, en güncel sürüm listesi yenilendi",
+      "Lisans — bağlantı sorununda etkinleştirme otomatik olarak tekrar deneniyor"
+    ],
+    "notes_en": [
+      "Installer — can now be installed with Setup: Start menu and desktop shortcuts, uninstall from the Apps list",
+      "Monitors fixed — high refresh rates like 360 Hz and dual monitors are shown correctly; each display's highest supported Hz is listed",
+      "Revert fixed — registry settings changed by FPS optimization really return to their pre-ZETX values and are verified",
+      "7 new FPS settings — block windows from jumping in front of the game, Game DVR policy, svchost merge, keep kernel in RAM, Windows Search and MPO (dual-monitor flicker)",
+      "Disk test — pick several drives or test them all in turn; M.2 NVMe SSDs showing as SATA fixed",
+      "Drivers — up-to-date drivers no longer shown as old; latest version list refreshed",
+      "License — activation automatically retries on connection problems"
+    ]
   },
   "_drivers": "Sürücü ve BIOS sayfasının karşılaştırdığı en güncel sürümler. Yeni sürücü çıktığında buradan güncelleyin.",
   "drivers": {
